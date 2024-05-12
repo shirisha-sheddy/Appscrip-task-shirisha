@@ -1,6 +1,8 @@
 import React from 'react';
 import { useState } from 'react';
 
+import './ProductCard.css';
+
 const ProductCard = ({ product }) => {
   // Example of local state for handling user interactions
   const [liked, setLiked] = useState(false);

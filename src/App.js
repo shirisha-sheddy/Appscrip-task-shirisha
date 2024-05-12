@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.css'; // Assuming you have a CSS file for styling
-import Header from './components/Header';
-import Footer from './components/Footer';
-import ProductGrid from './components/ProductGrid';
+import './App.css'; 
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import ProductGrid from './components/ProductGrid/ProductGrid';
 
 function App() {
   return (
